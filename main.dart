@@ -57,8 +57,8 @@ void main() {
     print("Start $levelName");
 
     Map? currentLevel = level[levelName];
-    List<EnemySpaceship> enemies = currentLevel?["enemies"];
-    List<Healthstation> healthStations = currentLevel?["healingStations"];
+    List<EnemySpaceship> enemies = currentLevel?["Gegner"];
+    List<Healthstation> healthStations = currentLevel?["Heilungstation"];
 
     while (true) {
       player.move();
